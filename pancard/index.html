@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAN CARD</title>
+   <style>
+       body{
+           border: 1px black;
+       }
+       td{
+           border: 1px solid black;
+       }
+       .table-header{
+           font-style: oblique;
+           background-color: rgb(184, 37, 81);
+           text-align: center;
+           border: 1px solid black;
+       }
+        .table-style{
+            background-color: azure;
+            width: 100%;
+            
+            
+
+        
+    }
+    .checkbox{
+        width: 5%;
+    }
+   </style>
+
+</head>
+<body>
+    <table class="table-style">
+        <tr class="table-header">
+            <td colspan="2">
+              <b>Request For New PAN Card Or/And Changes Or Correction in PAN Data</b>  
+            </td>
+        </tr>
+            
+        <tr>
+
+            <td>
+                Whether citizen of India
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="citizen_yes" value="y" name="gender">
+                <label for="citizen_yes">Yes </label>  
+                
+                &nbsp;&nbsp;
+
+                <input type="radio" id="citizen_no" value="n" name="gender">
+                <label for="citizen_no"> No</label>
+                
+
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>
+                    Permanent Account Number (PAN)
+                </b> 
+                &nbsp;&nbsp;&nbsp;
+                <input type="text" id="pan_no" value="pan_no" size="20" maxlength="10">
+
+            </td>
+            <tr>
+
+                <td>
+                    <b>Name</b>
+                    
+                    
+    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <table>
+                        <td>
+                            First name <br>
+                            <input type="text" id="fname" value="ananth">
+                            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                        
+                        </td>
+                        
+                          
+                        <td >
+                            Last name <br>
+                            <input type="text" id="lname" value="astaputra">
+                            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                        </td>
+                        
+                        <td>
+                            Middle name <br>
+                            <input type="text" id="mname" value="sai">
+
+                        </td>
+    
+
+                    </table>
+                   
+                </td>
+                <tr>
+                    <td colspan="2">
+                        Name as you would like to print on the card 
+                    </td>
+                    <tr>
+                        <td>
+                            <input type="text" id="pan_name" value="sai ananth">
+                        </td>
+                        
+
+                    </tr>
+                   
+                </tr>
+                <tr>
+                    <td>
+                        Father's name
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <table>
+                            <td>
+                                First name <br>
+                                <input type="text" id="fname" value="lakshmi">
+                                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                            </td>
+                            
+                                
+                            
+                            <td >
+                                Last name <br>
+                                <input type="text" id="lname" value="astaputra">
+                                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+    
+                            </td>
+                            
+                               
+                            
+                            <td>
+                                Middle name <br>
+                                <input type="text" id="mname" value="narayana">
+    
+                            </td>
+        
+    
+                        </table>
+                       
+                    </td>
+                </tr>
+                
+                
+                
+            </tr>
+
+        </tr>
+        <tr>
+            <td>
+                Date of Birth/Incorporation/Agreement/Partnership<BR>
+                    or Trust Deed/Formation of Body of Individuals/<BR>
+                    Association of Persons
+                
+
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="date" id="dob" value="25/05/1997">
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+            <tr>
+                <td>
+                    Gender 
+
+                    
+                </td>
+                <td>
+                    <input type="radio"  id="male" name="gender">
+                    Male &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" id="femlae" name="gender">
+                    Female
+                </td>
+
+            </tr>   
+            <tr>
+                <td>
+                    Photo mismatch
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Signature mismatch
+                </td>
+                
+            </tr>
+            <tr>
+                
+                    <td>
+                        Adress for communication
+    
+                    </td>
+                    <td>
+                        <input type="radio" id="adress1" name="adress">
+                        Residence
+                        
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" id="adress2" name="adress">
+                        Home
+                        
+                        
+    
+                    </td>
+                    
+
+                
+                
+            </tr>
+            <tr>
+                <td>
+                    Flat/Door/Block No.
+
+                </td>
+                <td>
+                    <input type="text" id="adress_flatno">
+
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Road/Street/Lane/Post Office
+                </td>
+                <td>
+                    <input type="text" id="village">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Area/Locality/Taluka/Sub-Division
+                </td>
+                <td>
+                    <input type="text" id="village_name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    State/Union Territory
+                </td>
+                <td>
+                    <input type="text" name="state" id="state">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Zip
+                </td>
+                <td>
+                    <input type="text" name="517501" id="Zip">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Telephone No.
+                </td>
+                
+                    <td>
+                        <input type="radio" id="mobile" name="number">
+                        Mobile
+
+                        <input type="radio" id="telephone" name="number">
+                        Telephone
+
+                    </td>
+                    <tr>
+                        <td>
+                            <input type="text" id="number">
+                        </td>
+                    </tr>
+                    
+
+                
+            </tr>
+            <TR>
+                <td>
+                    E-mail ID
+                </td>
+                
+                <td>
+                    <input type="text" id="mail">
+                </td>
+            </TR>
+            <tr>
+                <td>
+                    In case of a citizen of India, then
+                </td>
+                <td>
+                    <input type="radio" name="identity" id="aadhar">
+                    AADHAR
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="identity" id="EID">
+                    EID
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    AADHAAR number : <br>
+                    <input type="text" id="Aadhar">
+
+
+
+                </td>
+
+            </tr>
+            <tr>
+                
+                    <td>
+                        <button type="choosefile" id="photo">
+                            upload photo
+                    </td>
+                    
+                    <td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                <button  type="choosefile" id="files">
+                upload documents 
+
+                    </td>
+                    
+                    
+                
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="doc" name="upload photo" style="height: 100px;">
+                </td>
+                <td>
+                    <input type="text" name="upload doc" id="doc2" style="height: 150px;">
+                </td>
+                
+            </tr>
+
+
+        </tr>
+        <tr>
+            <td style="text-align: center;">
+                <button type="submit">SUBMIT</button>
+            </td>
+        </tr>
+
+
+
+    </table>
+
+    
+    
+</body>
+</html>
