@@ -1,0 +1,117 @@
+.image_area{
+    background-color: rgb(75, 74, 74);;
+    border: 1px solid gray;
+    width: 78%;
+    height: 200px;
+    margin: 40px 150px 30px;
+    padding: 25px;
+}
+.name_area{
+    background-color: rgb(75, 74, 74);;
+    border: 1px solid gray;
+    width: 78%;
+    height: 50px;
+    margin: 40px 150px 10px;
+    padding: 20px;
+    text-align: center;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    border: 1px solid rgb(71, 151, 51);
+    border-radius: 10px;
+    background-color: rgb(87, 201, 11);
+    width: 20%;
+    height: 50px;
+    
+    position: absolute;
+    top: 275px;
+    left: 530px;
+}
+.image{
+    border: 1px dashed  rgb(201, 150, 11);
+    border-radius: 80px;
+    position: relative;
+    top: 55px;
+    left: 410px;
+}
+#address{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 74, 74);
+    position: relative;
+    left: 250px;
+}
+.title{
+    font-size: 40px;
+    color: rgb(75, 74, 74);
+}
+#profile{
+    border: 0px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    width: 5in;
+    text-align: justify;
+    position: relative;
+    top: 10px;
+    left: 170px;
+}
+#skills{
+    border: 0px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    width: 5in;
+    text-align: justify;
+    position: absolute;
+    top: 430px;
+    left: 720px;
+}
+#education{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    width: 5in;
+    text-align: justify;
+    position: absolute;
+    top: 650px;
+    left: 720px;
+}
+.vl {
+    border-left: 2px solid grey;
+    height: 800px;
+    position: absolute;
+    left: 50.5%;
+    margin-left: 10px;
+    top: 460px;
+}
+/* #icon{
+    size: 10px;
+    padding: 7px;
+    color: rgb(201, 150, 11);
+    border: 3px dashed  rgb(201, 150, 11);
+    border-radius: 30px;
+    background-color:  rgb(75, 74, 74);
+} */
+input[type=range]{
+    -webkit-appearance: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: goldenrod;
+    border: none;
+    border-radius: 3px;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+    margin-top: -4px;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: rgb(201, 150, 11);
+}
