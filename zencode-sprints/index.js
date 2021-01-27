@@ -193,3 +193,117 @@ console.log(remainder(5,5))               //return 0
 
 
 
+
+Problem:
+Check if an Integer is Divisible By Five
+Create a function that returns true if an integer is evenly divisible by 5, and false otherwise.
+Examples
+divisibleByFive(5) ➞ true
+
+
+
+
+var num1=10
+function divisibleByFive(num1) {
+    if (num1%5==0) {
+        return true
+    }
+    else{
+        return false
+    }
+}
+var divisible = divisibleByFive(5)
+console.log(divisible)
+console.log(divisibleByFive(15))                    //return true
+console.log(divisibleByFive(18))                      //return false
+
+
+
+
+
+Problem:
+Write a function called “isEven”.
+Given a number, “isEven” returns whether it is even.
+
+Input:
+isEven(12);
+
+output:
+true
+
+
+
+function isEven(num){
+    
+    
+    if (num%2==0) {
+        return true
+    }
+    else{
+        return false
+    }
+ // your code here
+}
+var even = isEven(2)
+console.log(isEven(6))                      //return true
+console.log(isEven(5))                      //return false
+
+
+
+
+
+
+
+
+Problem:
+Write a function called “areBothOdd”.
+Given 2 numbers, “areBothOdd” returns whether or not both of the given numbers are odd.
+
+Input:
+areBothOdd(1, 3);
+
+
+function areBothOdd(num1, num2){
+    
+    if(num1%2==0 || num2%2==0){
+        return false
+        
+    }
+    else{
+        return true
+        
+        
+    }
+ // your code here
+}
+
+console.log(areBothOdd(1,3))                //return true
+console.log(areBothOdd(2,3))                //returns false
+
+
+
+
+
+
+
+Problem:
+Write a function called “getFullName”.
+Given a first and a last name, “getFullName” returns a single string with the given first and last names separated by a single space.
+
+Input:
+getFullName(“GUVI”, “GEEK”);
+Output:
+“GUVI GEEK”
+
+
+
+
+var firstName=""
+var lastName=""
+function getFullName(firstName, lastName){
+    
+ // your code here
+ 
+ return firstName+lastName
+}
+console.log(getFullName("guvi","geeks"))
